@@ -2,7 +2,7 @@ pipeline {
   environment {
     registry = "qsecofr88/k2"
     registryCredential = 'dockerhub'
-    dockerImage = ''
+    dockerImage = 'qsecofr88/k2:latest'
   }
   agent any
   stages {
