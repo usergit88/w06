@@ -6,8 +6,8 @@ ARG TOMCAT_VERSION='7.0.75'
 ARG JAVA_VERSION='1.8.0'
 
 LABEL Version 1.${TOMCAT_MAJOR}
-LABEL maintainer="https://github.com/kalise/"
-LABEL credits="https://github.com/dellekappa/tomcat-as-a-service"
+LABEL maintainer="https://github.com/usergit88/"
+LABEL credits="https://github.com/w01"
 
 ENV USER_NAME='user' \
     INSTANCE_NAME='instance'
