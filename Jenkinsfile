@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "kalise/taas"
+    registry = "qsecofr88/w33"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
